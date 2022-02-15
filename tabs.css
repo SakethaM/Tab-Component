@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+
+}
+.container{
+    max-width: 600px;
+    margin:0 auto;
+
+}
+.tab_navigation{
+    padding:0px;
+    margin:0px;
+    list-style: none;
+
+
+}
+.tab_navigation li{
+    display: inline-block;
+    padding: 5px 15px;
+    
+    background: gray;
+    min-width: 100px;
+    text-align: center;
+    
+    border-radius:5px 5px 0 0;
+    cursor:pointer;
+    color:#fff;
+  
+
+}
+.tab_navigation li.active{
+
+    background-color :#007fff;
+    
+
+}
+.tab_container{
+    padding:10px;
+    background:#007fff;
+    color:#fff;
+    border-radius: 0 5px 5px 5px;
+    display: none;
+}
